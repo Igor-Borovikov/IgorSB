@@ -1,0 +1,13 @@
+TODO:
+- common prototype for post, pre conditions and state with moethods to update balance, etc
+-------------------------------------------------------------
+DONE
+
+20100811
+* make postcondition also a function to change state procedurally
+* Solve "goat, wolf and cabbage" puzzle
+20100810
+* pre-condition optionally can be a function
+20100809
+* wrap planner into an object/module
+* make beget private, do not pollute Object!

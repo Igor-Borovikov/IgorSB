@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    
+    <pre><script src="logger.js"></script></pre>
+    <pre><script src="planner_funccond.js"></script></pre>
+    <script type="text/javascript">		
+        //<![CDATA[
+        /* From JavaScript - The Good Parts by Douglas Crockford 
+        clones an object by providing prototype reference to the ancestor. */
+        if (typeof Object.beget !== 'function') {
+             Object.beget = function (o) {
+                 var F = function () {};
+                 F.prototype = o;
+                 return new F();
+             };
+        }
+        
+        window.onDomReady = testPlanner1();
+        //]]>
+        </script>
+    
+    <title>Planner</title>
+</head>
+
+<body>
+    <div id="logger">
+    </div>
+</body>
+
+</html>
