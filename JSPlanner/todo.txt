@@ -1,5 +1,8 @@
 TODO:
-- common prototype for post, pre conditions and state with moethods to update balance, etc
+- animate solution for goat, cabbage and wolf puzzle using MootTools
+- wending machine problem (thirsty agent, wending machine, pay or shake, policemen, first axiom of Lefebvre)
+???
+- common prototype for post, pre conditions and state with methods to update balance, etc
 -------------------------------------------------------------
 DONE
 
